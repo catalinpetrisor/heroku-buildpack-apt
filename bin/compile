@@ -13,6 +13,9 @@ RESET='\033[0m'
 
 # parse and derive params
 BUILD_DIR=$1
+BUILD_CONTENT=`ls -la $BUILD_DIR`
+echo "Build dir: $BUILD_CONTENT"
+
 CACHE_DIR=$2
 LP_DIR=`cd $(dirname $0); cd ..; pwd`
 
