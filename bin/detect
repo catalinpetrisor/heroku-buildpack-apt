@@ -7,5 +7,5 @@
 #   echo "no" && exit 1
 # fi
 
-echo "Xinerama"
+echo "Apt Buildpack"
 exit 0
